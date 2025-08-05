@@ -1,4 +1,4 @@
-package models 
+package models
 
 import (
 	"time"
@@ -23,8 +23,8 @@ type RequestLogData struct {
 }
 
 type EarlyRequestLogData struct {
-	includeSensitiveHeaders bool
-	sensitiveHeaders        []string
+	IncludeSensitiveHeaders bool     `json:"include_sensitive_headers"`
+	SensitiveHeaders        []string `json:"sensitive_headers"`
 }
 
 type User struct {

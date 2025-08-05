@@ -3,7 +3,7 @@ package repositories
 import (
 	"fmt"
 	"sync"
-	"github.com/notmkw/logger/internal/models"
+	"github.com/notmkw/log/internal/models"
 )
 
 type UserRepository struct {

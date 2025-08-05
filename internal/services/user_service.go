@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/notmkw/logger/models"
-	"github.com/notmkw/logger/repositories"
+	"github.com/notmkw/log/internal/models"
+	"github.com/notmkw/log/internal/repositories"
 
 	"github.com/google/uuid"
 )

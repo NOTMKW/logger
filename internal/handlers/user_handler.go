@@ -3,8 +3,8 @@ package handlers
 import (
 	"time"
 
-	"github.com/notmkw/logger/internal/services"
-	"github.com/notmkw/logger/pkg/utils"
+	"github.com/notmkw/log/internal/services"
+	"github.com/notmkw/log/pkg/utils"
 
 	"github.com/gofiber/fiber/v2"
 )
